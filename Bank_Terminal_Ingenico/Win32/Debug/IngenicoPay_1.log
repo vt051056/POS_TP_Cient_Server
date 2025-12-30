@@ -1,0 +1,100 @@
+29/10/2024 14:40:27 12e4 call useLogging() in version: 1.10.5.8
+29/10/2024 14:40:27 12e4 FilePath: IngenicoPay_1.log
+29/10/2024 14:40:27 12e4 Logging level: 1
+29/10/2024 14:40:27 12e4 call CommClose()
+29/10/2024 14:40:27 12e4 call SetErrorLang()
+29/10/2024 14:40:27 12e4 Error Language: Ukrainian
+29/10/2024 14:40:27 12e4 CommOpen() : sPort = COM1, nBaudRate = 9600
+29/10/2024 14:40:28 12e4 call Cancel()
+29/10/2024 14:40:28 2598 sending abort
+29/10/2024 14:40:30 12e4 call Purchase()
+29/10/2024 14:40:30 12e4 Amount: 120
+29/10/2024 14:40:30 12e4 AddAmount: 0
+29/10/2024 14:40:30 12e4 MerchIdx: 1
+29/10/2024 14:40:30 2598 sending message
+29/10/2024 14:40:36 2598 CommRead OK: 
+29/10/2024 14:40:36 2598 error: communication read ACK, rc = 0
+29/10/2024 14:40:36 2598 error: ACK = 0
+29/10/2024 14:40:36 12e4 call Cancel()
+29/10/2024 14:40:36 2598 sending abort
+29/10/2024 14:40:36 12e4 call CommClose()
+29/10/2024 14:47:36 1ff8 call useLogging() in version: 1.10.5.8
+29/10/2024 14:47:36 1ff8 FilePath: IngenicoPay_1.log
+29/10/2024 14:47:36 1ff8 Logging level: 1
+29/10/2024 14:47:36 1ff8 call CommClose()
+29/10/2024 14:47:36 1ff8 call SetErrorLang()
+29/10/2024 14:47:36 1ff8 Error Language: Ukrainian
+29/10/2024 14:47:36 1ff8 CommOpen() : sPort = COM1, nBaudRate = 9600
+29/10/2024 14:47:39 1ff8 call Cancel()
+29/10/2024 14:47:40 1e70 sending abort
+29/10/2024 14:47:44 1ff8 call Purchase()
+29/10/2024 14:47:44 1ff8 Amount: 120
+29/10/2024 14:47:44 1ff8 AddAmount: 0
+29/10/2024 14:47:44 1ff8 MerchIdx: 1
+29/10/2024 14:47:44 1e70 sending message
+29/10/2024 14:47:50 1e70 CommRead OK: 
+29/10/2024 14:47:50 1e70 error: communication read ACK, rc = 0
+29/10/2024 14:47:50 1e70 error: ACK = 0
+29/10/2024 14:47:50 1ff8 call Cancel()
+29/10/2024 14:47:50 1e70 sending abort
+29/10/2024 14:47:51 1ff8 call CommClose()
+29/10/2024 14:48:45 2254 call useLogging() in version: 1.10.5.8
+29/10/2024 14:48:45 2254 FilePath: IngenicoPay_1.log
+29/10/2024 14:48:45 2254 Logging level: 1
+29/10/2024 14:49:04 2254 call CommClose()
+29/10/2024 14:49:08 2254 call SetErrorLang()
+29/10/2024 14:49:08 2254 Error Language: Ukrainian
+29/10/2024 14:49:12 2254 CommOpen() : sPort = COM1, nBaudRate = 9600
+29/10/2024 14:49:52 2254 call Cancel()
+29/10/2024 14:49:58 18c4 sending abort
+29/10/2024 14:50:12 2254 call Purchase()
+29/10/2024 14:50:12 2254 Amount: 120
+29/10/2024 14:50:12 2254 AddAmount: 0
+29/10/2024 14:50:12 2254 MerchIdx: 1
+29/10/2024 14:50:53 18c4 sending message
+29/10/2024 14:51:24 18c4 CommRead OK: 
+29/10/2024 14:51:26 18c4 error: communication read ACK, rc = 0
+29/10/2024 14:51:31 18c4 error: ACK = 0
+29/10/2024 14:52:23 2254 call Cancel()
+29/10/2024 14:52:32 18c4 sending abort
+29/10/2024 14:52:44 2254 call CommClose()
+29/10/2024 14:58:22 20bc call useLogging() in version: 1.10.5.8
+29/10/2024 14:58:22 20bc FilePath: IngenicoPay_1.log
+29/10/2024 14:58:22 20bc Logging level: 1
+29/10/2024 14:58:22 20bc call CommClose()
+29/10/2024 14:58:22 20bc call SetErrorLang()
+29/10/2024 14:58:22 20bc Error Language: Ukrainian
+29/10/2024 14:58:22 20bc CommOpen() : sPort = COM1, nBaudRate = 9600
+29/10/2024 14:58:23 20bc call Cancel()
+29/10/2024 14:58:23 f70 sending abort
+29/10/2024 14:58:25 20bc call Purchase()
+29/10/2024 14:58:25 20bc Amount: 120
+29/10/2024 14:58:25 20bc AddAmount: 0
+29/10/2024 14:58:25 20bc MerchIdx: 1
+29/10/2024 14:58:25 f70 sending message
+29/10/2024 14:58:31 f70 CommRead OK: 
+29/10/2024 14:58:31 f70 error: communication read ACK, rc = 0
+29/10/2024 14:58:31 f70 error: ACK = 0
+29/10/2024 14:58:39 20bc call Cancel()
+29/10/2024 14:58:40 f70 sending abort
+29/10/2024 14:59:05 20bc call CommClose()
+29/10/2024 15:00:47 1784 call useLogging() in version: 1.10.5.8
+29/10/2024 15:00:47 1784 FilePath: IngenicoPay_1.log
+29/10/2024 15:00:47 1784 Logging level: 1
+29/10/2024 15:00:47 1784 call CommClose()
+29/10/2024 15:00:47 1784 call SetErrorLang()
+29/10/2024 15:00:47 1784 Error Language: Ukrainian
+29/10/2024 15:00:47 1784 CommOpen() : sPort = COM1, nBaudRate = 9600
+29/10/2024 15:00:47 1784 call Cancel()
+29/10/2024 15:00:47 2a84 sending abort
+29/10/2024 15:00:49 1784 call Purchase()
+29/10/2024 15:00:49 1784 Amount: 120
+29/10/2024 15:00:49 1784 AddAmount: 0
+29/10/2024 15:00:49 1784 MerchIdx: 1
+29/10/2024 15:00:49 2a84 sending message
+29/10/2024 15:00:55 2a84 CommRead OK: 
+29/10/2024 15:00:55 2a84 error: communication read ACK, rc = 0
+29/10/2024 15:00:55 2a84 error: ACK = 0
+29/10/2024 15:00:59 1784 call Cancel()
+29/10/2024 15:00:59 2a84 sending abort
+29/10/2024 15:00:59 1784 call CommClose()

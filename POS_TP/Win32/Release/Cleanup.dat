@@ -1,0 +1,20 @@
+{
+  "ZRepAutoInfo": {
+    "NumFiscal": "3788184651",
+    "NumLocal": 3387,
+    "OrderDateTime": "2025-01-31T17:30:15.6724864+02:00",
+    "Offline": false,
+    "ErrorCode": "Ok",
+    "ErrorMessage": null
+  },
+  "CloseShiftAutoInfo": {
+    "NumFiscal": "3788184712",
+    "NumLocal": 3388,
+    "OrderDateTime": "2025-01-31T17:30:16.1930183+02:00",
+    "Offline": false,
+    "ErrorCode": "Ok",
+    "ErrorMessage": null
+  },
+  "ErrorCode": "Ok",
+  "ErrorMessage": null
+}

@@ -1,0 +1,11 @@
+{
+  "Totals": {
+    "ZREPHEAD": {
+      "REVOKED": false,
+      "TESTING": false,
+      "OFFLINE": false
+    }
+  },
+  "ErrorCode": "Ok",
+  "ErrorMessage": null
+}

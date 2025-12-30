@@ -1,0 +1,35 @@
+{
+  "Totals": {
+    "ZREPHEAD": {
+      "REVOKED": false,
+      "TESTING": false,
+      "OFFLINE": false
+    },
+    "ZREPREALIZ": {
+      "SUM": 305.50,
+      "PWNSUMISSUED": 0.0,
+      "PWNSUMRECEIVED": 0.0,
+      "RNDSUM": 0.0,
+      "NORNDSUM": 305.50,
+      "ORDERSCNT": 1,
+      "PWNORDERSCNTISSUED": 0,
+      "PWNORDERSCNTRECEIVED": 0,
+      "TOTALCURRENCYCOST": 0,
+      "TOTALCURRENCYSUM": 0.0,
+      "TOTALCURRENCYCOMMISSION": 0.0,
+      "PAYFORMS": [
+        {
+          "PAYFORMCD": 0,
+          "PAYFORMNM": "√Œ“≤¬ ¿",
+          "SUM": 305.50
+        }
+      ]
+    },
+    "ZREPBODY": {
+      "SERVICEINPUT": 0.0,
+      "SERVICEOUTPUT": 0.0
+    }
+  },
+  "ErrorCode": "Ok",
+  "ErrorMessage": null
+}

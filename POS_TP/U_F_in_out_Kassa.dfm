@@ -1,0 +1,91 @@
+object F_In_Out_Kassa: TF_In_Out_Kassa
+  Left = 0
+  Top = 0
+  Caption = #1042#1074#1086#1076' '#1089#1091#1084#1084#1099
+  ClientHeight = 125
+  ClientWidth = 467
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poDesktopCenter
+  OnCloseQuery = FormCloseQuery
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 40
+    Top = 40
+    Width = 174
+    Height = 19
+    Caption = #1057#1091#1084#1084#1072' '#1042#1085#1077#1089#1077#1085#1080#1103' '#1074' '#1082#1072#1089#1089#1091
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 40
+    Top = 8
+    Width = 46
+    Height = 19
+    Caption = 'Label2'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Edit1: TEdit
+    Left = 240
+    Top = 36
+    Width = 121
+    Height = 27
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 0
+    Text = 'Edit1'
+    OnKeyPress = Edit1KeyPress
+  end
+  object BitBtn1: TBitBtn
+    Left = 40
+    Top = 72
+    Width = 113
+    Height = 31
+    Caption = #1043#1086#1090#1086#1074#1086
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    Kind = bkOK
+    NumGlyphs = 2
+    ParentFont = False
+    TabOrder = 1
+  end
+  object BitBtn2: TBitBtn
+    Left = 192
+    Top = 72
+    Width = 113
+    Height = 31
+    Caption = #1057#1073#1088#1086#1089
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    Kind = bkCancel
+    NumGlyphs = 2
+    ParentFont = False
+    TabOrder = 2
+  end
+end

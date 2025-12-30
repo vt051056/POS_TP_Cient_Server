@@ -1,0 +1,86 @@
+{
+  "Documents": [
+    {
+      "NumFiscal": "2738377624",
+      "NumLocal": 185,
+      "DocDateTime": "2024-07-20T14:23:30",
+      "DocClass": "Check",
+      "CheckDocType": "OpenShift",
+      "CheckDocSubType": "CheckGoods",
+      "Revoked": false,
+      "Storned": false
+    },
+    {
+      "NumFiscal": "2738379228",
+      "NumLocal": 186,
+      "DocDateTime": "2024-07-20T14:23:45",
+      "DocClass": "Check",
+      "CheckDocType": "SaleGoods",
+      "CheckDocSubType": "ServiceDeposit",
+      "Revoked": false,
+      "Storned": false
+    },
+    {
+      "NumFiscal": "2738386737",
+      "NumLocal": 187,
+      "DocDateTime": "2024-07-20T14:24:53",
+      "DocClass": "Check",
+      "CheckDocType": "SaleGoods",
+      "CheckDocSubType": "CheckGoods",
+      "Revoked": false,
+      "Storned": false
+    },
+    {
+      "NumFiscal": "2738400587",
+      "NumLocal": 188,
+      "DocDateTime": "2024-07-20T14:26:57",
+      "DocClass": "Check",
+      "CheckDocType": "SaleGoods",
+      "CheckDocSubType": "CheckGoods",
+      "Revoked": false,
+      "Storned": false
+    },
+    {
+      "NumFiscal": "2738404843",
+      "NumLocal": 189,
+      "DocDateTime": "2024-07-20T14:27:36",
+      "DocClass": "Check",
+      "CheckDocType": "SaleGoods",
+      "CheckDocSubType": "CheckGoods",
+      "Revoked": false,
+      "Storned": false
+    },
+    {
+      "NumFiscal": "2738412729",
+      "NumLocal": 190,
+      "DocDateTime": "2024-07-20T14:28:49",
+      "DocClass": "Check",
+      "CheckDocType": "SaleGoods",
+      "CheckDocSubType": "CheckGoods",
+      "Revoked": false,
+      "Storned": false
+    },
+    {
+      "NumFiscal": "2738425114",
+      "NumLocal": 191,
+      "DocDateTime": "2024-07-20T14:30:40",
+      "DocClass": "Check",
+      "CheckDocType": "SaleGoods",
+      "CheckDocSubType": "CheckGoods",
+      "Revoked": false,
+      "Storned": false
+    },
+    {
+      "NumFiscal": "2738438862",
+      "NumLocal": 192,
+      "DocDateTime": "2024-07-20T14:32:45",
+      "DocClass": "Check",
+      "CheckDocType": "SaleGoods",
+      "CheckDocSubType": "CheckGoods",
+      "Revoked": false,
+      "Storned": false
+    }
+  ],
+  "ErrorCode": "Ok",
+  "ErrorMessage": null
+}

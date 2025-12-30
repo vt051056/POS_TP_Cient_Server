@@ -1,0 +1,4 @@
+весы = —оздатьќбъект("APScale.APScale");
+весы.Connect("COM1");
+—ообщить(весы.Data);
+весы.DisConnect(); 

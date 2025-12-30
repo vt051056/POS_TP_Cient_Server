@@ -1,0 +1,10 @@
+{
+  "QrCode": null,
+  "Url": "https://cabinet.tax.gov.ua/cashregs/check?fn=4000055423&id=3607530777&date=20241227&time=131437&sm=224.90",
+  "NumFiscal": "3607530777",
+  "NumLocal": 479,
+  "OrderDateTime": "2024-12-27T13:14:37.5447872+02:00",
+  "Offline": false,
+  "ErrorCode": "Ok",
+  "ErrorMessage": null
+}

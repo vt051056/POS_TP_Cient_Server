@@ -1,0 +1,16 @@
+{
+  "ZRepAutoInfo": {
+    "NumFiscal": "3788293829",
+    "NumLocal": 3390,
+    "OrderDateTime": "2025-01-31T17:43:04.3434268+02:00",
+    "Offline": false,
+    "ErrorCode": "Ok",
+    "ErrorMessage": null
+  },
+  "NumFiscal": "3788293872",
+  "NumLocal": 3391,
+  "OrderDateTime": "2025-01-31T17:43:04.6984118+02:00",
+  "Offline": false,
+  "ErrorCode": "Ok",
+  "ErrorMessage": null
+}

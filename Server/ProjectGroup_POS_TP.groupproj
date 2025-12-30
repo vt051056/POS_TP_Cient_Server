@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{1BB01E28-DB3B-42AC-8DFB-00A28DDF8319}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="RemoteDocsSrv.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\POS_TP\POS_TP.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="RemoteDocsSrv">
+        <MSBuild Projects="RemoteDocsSrv.dproj"/>
+    </Target>
+    <Target Name="RemoteDocsSrv:Clean">
+        <MSBuild Projects="RemoteDocsSrv.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="RemoteDocsSrv:Make">
+        <MSBuild Projects="RemoteDocsSrv.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="POS_TP">
+        <MSBuild Projects="..\POS_TP\POS_TP.dproj"/>
+    </Target>
+    <Target Name="POS_TP:Clean">
+        <MSBuild Projects="..\POS_TP\POS_TP.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="POS_TP:Make">
+        <MSBuild Projects="..\POS_TP\POS_TP.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="RemoteDocsSrv;POS_TP"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="RemoteDocsSrv:Clean;POS_TP:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="RemoteDocsSrv:Make;POS_TP:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

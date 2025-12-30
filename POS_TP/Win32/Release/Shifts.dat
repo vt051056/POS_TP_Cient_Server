@@ -1,0 +1,45 @@
+{
+  "Shifts": [
+    {
+      "ShiftId": 69650572,
+      "OpenShiftFiscalNum": "3045625926",
+      "CloseShiftFiscalNum": "3046787159",
+      "Testing": false,
+      "Opened": "2024-09-16T11:26:12.689737",
+      "OpenName": "Тестовий платник 4 (Тест)",
+      "OpenSubjectKeyId": "1b298013fc9593b503bdcd1074360ed1b14dc4a0ce8aad7fb3407fdb8bee5e51",
+      "Closed": "2024-09-16T14:08:54",
+      "CloseName": "Тестовий платник 4 (Тест)",
+      "CloseSubjectKeyId": "1b298013fc9593b503bdcd1074360ed1b14dc4a0ce8aad7fb3407fdb8bee5e51",
+      "ZRepFiscalNum": "3046787126"
+    },
+    {
+      "ShiftId": 69661590,
+      "OpenShiftFiscalNum": "3046826644",
+      "CloseShiftFiscalNum": "3047191552",
+      "Testing": false,
+      "Opened": "2024-09-16T14:14:48.862309",
+      "OpenName": "Тестовий платник 4 (Тест)",
+      "OpenSubjectKeyId": "1b298013fc9593b503bdcd1074360ed1b14dc4a0ce8aad7fb3407fdb8bee5e51",
+      "Closed": "2024-09-16T15:08:48",
+      "CloseName": "Тестовий платник 4 (Тест)",
+      "CloseSubjectKeyId": "1b298013fc9593b503bdcd1074360ed1b14dc4a0ce8aad7fb3407fdb8bee5e51",
+      "ZRepFiscalNum": "3047191536"
+    },
+    {
+      "ShiftId": 69670871,
+      "OpenShiftFiscalNum": "3048859626",
+      "CloseShiftFiscalNum": null,
+      "Testing": false,
+      "Opened": "2024-09-16T18:51:15.491862",
+      "OpenName": "Тестовий платник 4 (Тест)",
+      "OpenSubjectKeyId": "1b298013fc9593b503bdcd1074360ed1b14dc4a0ce8aad7fb3407fdb8bee5e51",
+      "Closed": null,
+      "CloseName": null,
+      "CloseSubjectKeyId": null,
+      "ZRepFiscalNum": null
+    }
+  ],
+  "ErrorCode": "Ok",
+  "ErrorMessage": null
+}

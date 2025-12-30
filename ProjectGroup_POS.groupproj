@@ -1,0 +1,108 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{1BB01E28-DB3B-42AC-8DFB-00A28DDF8319}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="Server\RemoteDocsSrv.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="POS_TP\POS_TP.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="DelphiZXingQRCode-master\TestApp\DelphiZXingQRCodeTestApp.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="EP_RRO\RRO_Setting.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="TEST_API_PRRO\Test_API_PRRO.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="PosBank_Progress\PosBamk_Progress.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Bank_Terminal_Ingenico\ProjectTest_Ingenico_POS_terminal.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="RemoteDocsSrv">
+        <MSBuild Projects="Server\RemoteDocsSrv.dproj"/>
+    </Target>
+    <Target Name="RemoteDocsSrv:Clean">
+        <MSBuild Projects="Server\RemoteDocsSrv.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="RemoteDocsSrv:Make">
+        <MSBuild Projects="Server\RemoteDocsSrv.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="POS_TP">
+        <MSBuild Projects="POS_TP\POS_TP.dproj"/>
+    </Target>
+    <Target Name="POS_TP:Clean">
+        <MSBuild Projects="POS_TP\POS_TP.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="POS_TP:Make">
+        <MSBuild Projects="POS_TP\POS_TP.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DelphiZXingQRCodeTestApp">
+        <MSBuild Projects="DelphiZXingQRCode-master\TestApp\DelphiZXingQRCodeTestApp.dproj"/>
+    </Target>
+    <Target Name="DelphiZXingQRCodeTestApp:Clean">
+        <MSBuild Projects="DelphiZXingQRCode-master\TestApp\DelphiZXingQRCodeTestApp.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DelphiZXingQRCodeTestApp:Make">
+        <MSBuild Projects="DelphiZXingQRCode-master\TestApp\DelphiZXingQRCodeTestApp.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="RRO_Setting">
+        <MSBuild Projects="EP_RRO\RRO_Setting.dproj"/>
+    </Target>
+    <Target Name="RRO_Setting:Clean">
+        <MSBuild Projects="EP_RRO\RRO_Setting.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="RRO_Setting:Make">
+        <MSBuild Projects="EP_RRO\RRO_Setting.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Test_API_PRRO">
+        <MSBuild Projects="TEST_API_PRRO\Test_API_PRRO.dproj"/>
+    </Target>
+    <Target Name="Test_API_PRRO:Clean">
+        <MSBuild Projects="TEST_API_PRRO\Test_API_PRRO.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Test_API_PRRO:Make">
+        <MSBuild Projects="TEST_API_PRRO\Test_API_PRRO.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="PosBamk_Progress">
+        <MSBuild Projects="PosBank_Progress\PosBamk_Progress.dproj"/>
+    </Target>
+    <Target Name="PosBamk_Progress:Clean">
+        <MSBuild Projects="PosBank_Progress\PosBamk_Progress.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="PosBamk_Progress:Make">
+        <MSBuild Projects="PosBank_Progress\PosBamk_Progress.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ProjectTest_Ingenico_POS_terminal">
+        <MSBuild Projects="Bank_Terminal_Ingenico\ProjectTest_Ingenico_POS_terminal.dproj"/>
+    </Target>
+    <Target Name="ProjectTest_Ingenico_POS_terminal:Clean">
+        <MSBuild Projects="Bank_Terminal_Ingenico\ProjectTest_Ingenico_POS_terminal.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ProjectTest_Ingenico_POS_terminal:Make">
+        <MSBuild Projects="Bank_Terminal_Ingenico\ProjectTest_Ingenico_POS_terminal.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="RemoteDocsSrv;POS_TP;DelphiZXingQRCodeTestApp;RRO_Setting;Test_API_PRRO;PosBamk_Progress;ProjectTest_Ingenico_POS_terminal"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="RemoteDocsSrv:Clean;POS_TP:Clean;DelphiZXingQRCodeTestApp:Clean;RRO_Setting:Clean;Test_API_PRRO:Clean;PosBamk_Progress:Clean;ProjectTest_Ingenico_POS_terminal:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="RemoteDocsSrv:Make;POS_TP:Make;DelphiZXingQRCodeTestApp:Make;RRO_Setting:Make;Test_API_PRRO:Make;PosBamk_Progress:Make;ProjectTest_Ingenico_POS_terminal:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

@@ -1,0 +1,16 @@
+{
+  "ZRepAutoInfo": {
+    "NumFiscal": "538086.3.6836",
+    "NumLocal": 695,
+    "OrderDateTime": "2022-02-04T18:02:45.6328352+02:00",
+    "Offline": true,
+    "ErrorCode": "Ok",
+    "ErrorMessage": null
+  },
+  "NumFiscal": "538086.4.8381",
+  "NumLocal": 696,
+  "OrderDateTime": "2022-02-04T18:02:45.6690874+02:00",
+  "Offline": true,
+  "ErrorCode": "Ok",
+  "ErrorMessage": null
+}

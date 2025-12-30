@@ -1,0 +1,20 @@
+29/10/2024 14:40:37 12e4 call useLogging() in version: 1.10.5.8
+29/10/2024 14:40:37 12e4 FilePath: Ingenico.log
+29/10/2024 14:40:37 12e4 Logging level: 1
+29/10/2024 14:40:37 12e4 call CommClose()
+29/10/2024 14:47:51 1ff8 call useLogging() in version: 1.10.5.8
+29/10/2024 14:47:51 1ff8 FilePath: Ingenico.log
+29/10/2024 14:47:51 1ff8 Logging level: 1
+29/10/2024 14:47:51 1ff8 call CommClose()
+29/10/2024 14:52:53 2254 call useLogging() in version: 1.10.5.8
+29/10/2024 14:52:53 2254 FilePath: Ingenico.log
+29/10/2024 14:52:53 2254 Logging level: 1
+29/10/2024 14:52:55 2254 call CommClose()
+29/10/2024 14:59:08 20bc call useLogging() in version: 1.10.5.8
+29/10/2024 14:59:08 20bc FilePath: Ingenico.log
+29/10/2024 14:59:08 20bc Logging level: 1
+29/10/2024 14:59:09 20bc call CommClose()
+29/10/2024 15:00:59 1784 call useLogging() in version: 1.10.5.8
+29/10/2024 15:00:59 1784 FilePath: Ingenico.log
+29/10/2024 15:00:59 1784 Logging level: 1
+29/10/2024 15:00:59 1784 call CommClose()
